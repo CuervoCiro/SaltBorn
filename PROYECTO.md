@@ -42,3 +42,13 @@
 1. Iniciar con la creacion de niveles
 2. Conectar la base de datos
 3. Construir la pagina web
+
+## Mi aporte al proyecto
+**Nombre:** Juan Manuel Cuervo Ciro
+**Rol:** Desarrollador de videojuego y web
+### Lo que desarrollo yo
+- Encargado del Front-end y desarrollo del videojuego en unity
+### Lo que aprendi esta semana
+- Manejo de Canvas en unity
+### Proximos pasos
+- crear en controlador principal del juego (GameManager)

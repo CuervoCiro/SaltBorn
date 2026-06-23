@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Proyecto</title><!-- CAMBIA: nombre de tu proyecto -->
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0F172A;    /* CAMBIA: color de fondo */
+      color: #F1F5F9;
+      min-height: 100vh;
+    }
+
+    /* ── HEADER ── */
+    header {
+      background: #1E293B;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #06B6D4; /* CAMBIA: color del borde */
+    }
+    header h1 {
+      font-size: 22px;
+      color: #06B6D4;           /* CAMBIA: color del titulo */
+    }
+    header span {
+      font-size: 13px;
+      color: #94A3B8;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      text-align: center;
+      padding: 80px 40px;
+    }
+    .hero h2 {
+      font-size: 36px;
+      color: #F1F5F9;
+      margin-bottom: 16px;
+    }
+    .hero p {
+      font-size: 16px;
+      color: #94A3B8;
+      max-width: 500px;
+      margin: 0 auto 32px;
+      line-height: 1.6;
+    }
+    .btn {
+      background: #06B6D4;      /* CAMBIA: color del boton */
+      color: #0F172A;
+      padding: 12px 28px;
+      border-radius: 8px;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    /* ── CARDS ── */
+    .cards {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      padding: 0 40px 60px;
+      flex-wrap: wrap;
+    }
+    .card {
+      background: #1E293B;
+      border-radius: 10px;
+      padding: 24px;
+      width: 220px;
+      border: 1px solid #334155;
+    }
+    .card h3 {
+      font-size: 15px;
+      color: #06B6D4;           /* CAMBIA: color del titulo card */
+      margin-bottom: 8px;
+    }
+    .card p {
+      font-size: 13px;
+      color: #94A3B8;
+      line-height: 1.5;
+    }
+
+    /* ── EQUIPO ── */
+    .equipo {
+      background: #1E293B;
+      padding: 40px;
+      text-align: center;
+    }
+    .equipo h2 {
+      font-size: 20px;
+      color: #F1F5F9;
+      margin-bottom: 20px;
+    }
+    .miembros {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .miembro {
+      background: #0F172A;
+      border-radius: 8px;
+      padding: 14px 20px;
+      font-size: 13px;
+      color: #94A3B8;
+      border: 1px solid #334155;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 12px;
+      color: #475569;
+      border-top: 1px solid #1E293B;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SaltBorn</h1><!-- CAMBIA -->
+    <span>SENA CTM Itagui · 2026</span>
+  </header>
+
+  <div class="hero">
+    <h2>Bienvenido a nuestro proyecto SaltBorn</h2><!-- CAMBIA -->
+    <p>
+      SaltBorn es un proyecto dirigido a la comunidad de jugadores de videojuegos, ofreciendo una experiencia divertida y desafiante para recorrer en solitario como con amigos. Nuestro objetivo es brindar entretenimiento y fomentar la busqueda de nuevas ideas para proyectos, mas desafiantes y divertidas.
+    </p><!-- CAMBIA -->
+    <a href="#" class="btn">Ver mas</a>
+  </div>
+
+  <div class="cards">
+    <!-- CAMBIA: agrega las funcionalidades principales -->
+    <div class="card">
+      <h3>Selección de niveles</h3>
+      <p> Permite al jugador elegir el nivel o escenario que desea jugar, según su progreso o los niveles que tenga desbloqueados.</p>
+    </div>
+    <div class="card">
+      <h3>Trampas dinámicas</h3>
+      <p>Presenta obstáculos que cambian o se activan de forma inesperada.</p>
+    </div>
+    <div class="card">
+      <h3>Descarga del juego</h3>
+      <p>Permite descargar la versión de escritorio del videojuego.</p>
+    </div>
+  </div>
+
+  <div class="equipo">
+    <h2>Nuestro Equipo</h2>
+    <!-- CAMBIA: agrega los nombres reales -->
+    <div class="miembros">
+      <div class="miembro">Juan Manuel Cuervo Ciro</div>
+      <div class="miembro">Juan Carlos Posada</div>
+      <div class="miembro">Sair Cardona</div>
+      <div class="miembro">Luis Mateo Arraut</div>
+    </div>
+  </div>
+
+  <footer>
+    Proyecto desarrollado en SENA CTM Itagui · 2026
+  </footer>
+
+</body>
+</html>
